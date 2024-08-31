@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+
+body {
+    font-family: monospace;
+    color: #382020;
+    background-color: white; /* light gray */
+    background-image: radial-gradient(circle, #382020 1px, transparent 1px);
+    background-size: 10px 10px;
+}
+
+h1 {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #d1d175;
+}
+
+.row01 {
+    width: 60%;
+    margin: auto;
+    background-color: #d1d175;
+}
+
+.column01 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.column02 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.column03 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row01:after {
+    content: "";
+    display: table;
+    clear: both;
+}
