@@ -1,0 +1,26 @@
+@import url("https://use.typekit.net/wxg6jqn.css");
+
+body {
+    background-color: pink;
+	background-image:
+		repeating-linear-gradient( 0deg, #87292f50 0px 8px,	transparent 8px 16px),
+		repeating-linear-gradient( 90deg, #87292f50 0px 8px,	transparent 8px 16px);
+    font-family: "shantell-sans-informal", sans-serif;
+}
+
+.menu {
+    width: 800px;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.spread {
+    background-image: url(images/journal-spread.png);
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+ul {
+    padding: 100px;
+}
