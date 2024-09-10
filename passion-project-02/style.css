@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3e9dc;
+    font-family: monospace;
+    text-align: center;
+}
+
+/*styling for the audio tag*/
+
+
+audio::-webkit-media-controls-panel {
+    background-color: pink;
+    
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: darkseagreen;
+  border-radius: 30%;
+}
+
+/*end of styling for audio*/
+
+img {
+    max-width: 100%;
+    height: 230px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 453px;
+    margin: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shelf {
+    background: #895737;
+    width: 175px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    float: left;
+}
+
+.book {
+    background: #5e3023;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.spine {
+    background: #b1baca;
+    height: 30px;
+    width: 10px;
+    float: left;
+    margin-right: 1px;
+    margin-left: 3px;
+    
+}
+
+a {
+    color: white;
+}
+
+.row02 {
+    padding: 30px;
+    margin-top: 15px;
+    background: pink;
+    text-align: left;
+}
+
+
+/*individual spine colors*/
+
+.daydream {
+    background: violet;
+}
+
+.rainbow-black {
+    background: purple;
+}

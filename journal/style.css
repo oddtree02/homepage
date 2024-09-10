@@ -12,6 +12,8 @@ body {
     width: 800px;
     background-color: lightgoldenrodyellow;
     margin: auto;
+    text-align: center;
+    padding: 15px;
 }
 
 .spread {
