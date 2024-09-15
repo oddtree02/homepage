@@ -9,6 +9,11 @@ body {
 }
 */
 
+body {
+font-family: "dico-mono-script", mono;
+color: steelblue;
+}
+
 .title {
     text-align: center;
 }
@@ -36,15 +41,13 @@ img {
 
 .tab {
     background: lightblue;
-/*    border: 3px solid black;*/
     width: 100%;
     height: 50px;
     text-align: center;
-/*    border: 2px solid black;*/
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid steelblue;
+/*    border-top: 1px solid black;*/
+/*    border-left: 1px solid black;*/
+/*    border-bottom: 1px solid black;*/
 }
 
 /*MAKES CURRENT TAB LOOK LIKE ITS IN FRONT*/
@@ -53,10 +56,12 @@ img {
     width: 100%;
     height: 50px;
     text-align: center;
-/*    border-right: 1px solid black;*/
+/*
+    border-right: 1px solid black;
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
+*/
 }
 
 .content {
