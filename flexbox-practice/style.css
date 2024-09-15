@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background: bisque;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    background: lightgreen;
+    width: 30px;
+    padding: 10px;
+}

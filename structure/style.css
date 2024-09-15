@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+body {
+    background-image: url(assets/paw.jpg);
+    background-repeat: repeat;
+}
+*/
+
+.title {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.container {
+    display: flex;
+/*    background: yellow;*/
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+/*    background: lightgreen;*/
+    width: 15%;
+}
+
+.tab {
+    background: lightblue;
+/*    border: 3px solid black;*/
+    width: 100%;
+    height: 50px;
+    text-align: center;
+/*    border: 2px solid black;*/
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*MAKES CURRENT TAB LOOK LIKE ITS IN FRONT*/
+.current-tab {
+    background: lightblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+/*    border-right: 1px solid black;*/
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background: lightblue;
+    width: 85%;
+    padding: 30px;
+}
+
+.message {
+/*    background: pink;*/
+    text-align: center;
+}
+
+.cat-photo {
+/*    background: lightgreen;*/
+    text-align: center;
+}
