@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.mug {
+    position: absolute;
+    
+}
+
+.cup {
+    position: absolute;
+    top: 44px;
+    left: 98px;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    align-items: center;
+}
+
+.liquid {
+    background: black;
+    width: 211px;
+    height: 30px;
+    
+    animation: sip 5s 5s normal 1 linear forwards;
+}
+
+/*LIQUID FROM CUP SLOWLY GOES DOWN*/
+.sip02 {
+    animation: sip 5s 10s normal 1 linear forwards;
+}
+
+.sip03 {
+    animation: sip 5s 15s normal 1 linear forwards;
+}
+
+.sip04 {
+    animation: sip 5s 20s normal 1 linear forwards;
+    width: 201px;
+}
+
+.sip05 {
+    animation: sip 5s 25s normal 1 linear forwards;
+    width: 175px;
+}
+
+@keyframes sip {
+    0% {
+        background: black;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/*END OF LIQUID ANIMATIONS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

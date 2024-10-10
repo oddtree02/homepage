@@ -1,0 +1,91 @@
+body {
+    margin:0px;
+}
+
+.container {
+    margin: auto;
+}
+
+@media screen and (min-width: 993px) {
+    body {
+    background-color:#f2eee9;
+    }
+    
+    .breakfast {
+/*        display:none;*/
+    }
+    
+    img.bagel {
+    width: 50vw;
+}
+    
+    img.salad {
+        display:none;
+    }
+    
+    .lunch {
+        display:none;
+    }
+    
+    .dinner {
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    body {
+    background-color:#e8e4cb;
+    }
+    
+    .breakfast {
+        display:none;
+    }
+    
+    .lunch {
+/*        display:none;*/
+    }
+    
+    img.bagel {
+        display:none;
+}
+    
+    img.salad {
+        width:50vw;
+    }
+    
+    .dinner {
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color:#f9b8af;
+    }
+    
+    .breakfast {
+        display:none;
+    }
+    
+    .lunch {
+        display:none;
+    }
+    
+    .dinner {
+        display: inline;
+    }
+    
+    img.bagel {
+        display:none;
+}
+    
+    img.salad {
+        display:none;
+    }
+    
+    img.soup {
+        width:50vw;
+    }
+}
