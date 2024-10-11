@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    color: #342716;
+    font-family: monospace;
 }
 
 img {
@@ -7,62 +9,155 @@ img {
 }
 
 body {
+    background: #fff1e4;
+    margin:0;
+}
+
+.container {
     position: relative;
+/*    background: pink;*/
+    width: 500px;
+    height: 400px;
+    margin: auto;
 }
 
 .mug {
     position: absolute;
-    
+    left:35px;
 }
 
 .cup {
     position: absolute;
     top: 44px;
-    left: 98px;
+    left: 143px;
     display: flex;
     flex-direction: column;
-    width: 210px;
+    /* width: 190px; */
     align-items: center;
 }
 
 .liquid {
-    background: black;
-    width: 211px;
-    height: 30px;
-    
+    background: #342716;
+    width: 231px;
+    height: 10px;
     animation: sip 5s 5s normal 1 linear forwards;
 }
 
-/*LIQUID FROM CUP SLOWLY GOES DOWN*/
-.sip02 {
-    animation: sip 5s 10s normal 1 linear forwards;
+.shrink01 {
+    width: 222px;
 }
-
-.sip03 {
-    animation: sip 5s 15s normal 1 linear forwards;
+.shrink02 {
+    width: 211px;
 }
-
-.sip04 {
-    animation: sip 5s 20s normal 1 linear forwards;
+.shrink03 {
     width: 201px;
 }
-
-.sip05 {
-    animation: sip 5s 25s normal 1 linear forwards;
-    width: 175px;
+.shrink04 {
+    width: 193px;
 }
+.shrink05 {
+    width: 181px;
+}
+.shrink06 {
+    width: 167px;
+}
+
+/*LIQUID FROM CUP SLOWLY GOES DOWN*/
+.liquid:nth-child(1) {
+  animation-delay: 5s;
+}
+
+.liquid:nth-child(2) {
+  animation-delay: 20s;
+}
+
+.liquid:nth-child(3) {
+  animation-delay: 35s;
+}
+
+.liquid:nth-child(4) {
+  animation-delay: 50s;
+}
+
+.liquid:nth-child(5) {
+  animation-delay: 65s;
+}
+
+.liquid:nth-child(6) {
+  animation-delay: 80s;
+}
+
+.liquid:nth-child(7) {
+  animation-delay: 95s;
+}
+
+.liquid:nth-child(8) {
+  animation-delay: 110s;
+}
+
+.liquid:nth-child(9) {
+  animation-delay: 125s;
+}
+
+.liquid:nth-child(10) {
+  animation-delay: 140s;
+}
+
+.liquid:nth-child(11) {
+  animation-delay: 155s;
+}
+
+.liquid:nth-child(12) {
+  animation-delay: 170s;
+}
+
+.liquid:nth-child(13) {
+  animation-delay: 185s;
+}
+
+.liquid:nth-child(14) {
+  animation-delay: 200s;
+}
+
+.liquid:nth-child(15) {
+  animation-delay: 215s;
+}
+
+.liquid:nth-child(16) {
+  animation-delay: 230s;
+}
+
+.liquid:nth-child(17) {
+  animation-delay: 245s;
+}
+
 
 @keyframes sip {
     0% {
-        background: black;
+        background:#342716;
     }
     100% {
         opacity: 0;
     }
 }
+
 /*END OF LIQUID ANIMATIONS*/
 
+.break {
+/*    font-family: "memimas-pro", sans-serif;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
 
+.refresh {
+/*    font-family: "memimas-pro", sans-serif;*/
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
 
 
 
