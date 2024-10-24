@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: lightblue;
+}
+
+.time {
+    background: darkblue;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    margin-top: 175px;
+}
+
+.dollhouse {
+    width: 700px;
+    height: 250px;
+    background: white;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bottom-floor {
+    padding-top: 0;
+}
+
+.room { 
+    width: 50%;
+    height: 100%;
+}
+
+/*INDIVIDUAL ROOMS*/
+
+.one {
+    background: purple;
+    width: 40%
+}
+
+.two {
+    background: orange;
+    width: 60%;
+}
+
+.three {
+    background: teal;
+    width: 60%;
+}
+
+.four {
+    background: magenta;
+    width: 40%;
+}
+
+/*END OF ROOMS*/
+
+.light {
+    background: black;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5px;
+    
+/*    background: green;*/
+    width: 50vw;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/*DOLLS*/
+.dolls {
+/*    background: green;*/
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+img {
+    height: 100px;
+}
+/*END OF DOLLS*/

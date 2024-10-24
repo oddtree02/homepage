@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <button onclick="change()">Click me...</button>
+        
+        <div class="menu">
+            Hello World!
+        </div>
+        
+        <script>
+        function change() {
+            console.log('it works!');
+            document.querySelector(".menu").classList.toggle("active");
+        }
+        </script>
+        
+    </body>
+</html>
