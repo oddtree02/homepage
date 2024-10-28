@@ -10,6 +10,4 @@ $(".daytime").click(
     }
 );
 
-$(document).ready(function() {
-    $("img").draggable();
-});
+$( ".draggable" ).draggable();

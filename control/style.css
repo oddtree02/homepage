@@ -4,23 +4,23 @@
 
 body {
     margin: 0;
-    background: lightblue;
+    background: #99b2dd;
 }
 
 .time {
-    background: darkblue;
+    background: #293454;
 }
 
 .container {
     width: 700px;
     margin: auto;
-    margin-top: 175px;
+    margin-top: 50px;
 }
 
 .dollhouse {
     width: 700px;
     height: 250px;
-    background: white;
+    background: #685044;
     padding: 10px;
     
     display: flex;
@@ -42,22 +42,34 @@ body {
 /*INDIVIDUAL ROOMS*/
 
 .one {
-    background: purple;
+/*    background: purple;*/
+    background-image: url(assets/lounge.jpg);
+    background-position: center;
+    background-size: cover;
     width: 40%
 }
 
 .two {
-    background: orange;
+/*    background: orange;*/
+    background-image: url(assets/bedroom.jpg);
+    background-position: center;
+    background-size: cover;
     width: 60%;
 }
 
 .three {
-    background: teal;
+/*    background: teal;*/
+    background-image: url(assets/bathroom.jpg);
+    background-position: center;
+    background-size: cover;
     width: 60%;
 }
 
 .four {
-    background: magenta;
+/*    background: magenta;*/
+    background-image: url(assets/kitchen.jpg);
+    background-position: center;
+    background-size: cover;
     width: 40%;
 }
 
@@ -94,3 +106,34 @@ img {
     height: 100px;
 }
 /*END OF DOLLS*/
+
+button {
+    outline: 0;
+    grid-gap: 8px;
+    align-items: center;
+    background: 0 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    white-space: nowrap;
+}
+
+button:hover {
+    box-shadow: 4px 4px 0 #000;
+    transform: translate(-4px,-4px);
+    }
+
+button:focus-visible{
+    outline-offset: 1px;
+}
