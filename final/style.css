@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #161b1b;
+    background: #fffffc;
+}
+
+.container {
+/*    background: green;*/
+    width: 100vw;
+    
+    display: flex;
+/*    flex-wrap: wrap;*/
+}
+
+.sidebar {
+    width: 25vw;
+/*    height: 100vh;*/
+    background: pink;
+    padding: 15px;
+}
+
+.content {
+    width: 75vw;
+/*    height: 100vh;*/
+    background: lightblue;
+    padding: 15px;
+}
+
+/*
+.box {
+    background: pink;
+    width: 50vw;
+    height: 50vh;
+    padding: 15px;
+}*/
