@@ -1,4 +1,5 @@
 * {
+/*    background: pink;*/
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -8,19 +9,19 @@ body {
 }
 
 .menu {
-    background: yellow;
+/*    background: yellow;*/
 /*    padding: 10px;*/
     width: 100vw;
 /*    FLEXBOX*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .pagelink {
-    background: pink;
+/*    background: pink;*/
     padding: 10px;
 }
 
@@ -43,7 +44,7 @@ a:active {
 /*END OF MENU LINKS STYLING*/
 
 .welcome-message {
-    background: yellow;
+/*    background: yellow;*/
     padding: 10px;
     width: 100vw;
     font-size: 3rem;
@@ -53,3 +54,37 @@ a:active {
     font-size: 1rem;
     text-align: right;
 }
+
+/*WORK-MAIN.CSS*/
+.container {
+/*    background: green;*/
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works {
+    background: orange;
+    width: 20vw;
+    padding: 10px;
+}
+
+.work-info {
+/*    background: blue;*/
+    width: 80vw;
+    padding: 10px;
+}
+
+/*FOOTER*/
+.footer {
+/*    background: pink;*/
+}
+
+img.socials {
+    width: 30px;
+    margin: 10px;
+}
+/*END OF FOOTER*/
